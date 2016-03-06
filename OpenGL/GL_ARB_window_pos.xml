@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+
+<gl_extension name="GL_ARB_window_pos" reg_no="25">
+	<functions>
+		<function name="glWindowPos2dARB" return="void">
+			<params>
+				<param type="GLdouble" name="x"/>
+				<param type="GLdouble" name="y"/>
+			</params>
+		</function>
+		<function name="glWindowPos2fARB" return="void">
+			<params>
+				<param type="GLfloat" name="x"/>
+				<param type="GLfloat" name="y"/>
+			</params>
+		</function>
+		<function name="glWindowPos2iARB" return="void">
+			<params>
+				<param type="GLint" name="x"/>
+				<param type="GLint" name="y"/>
+			</params>
+		</function>
+		<function name="glWindowPos2sARB" return="void">
+			<params>
+				<param type="GLshort" name="x"/>
+				<param type="GLshort" name="y"/>
+			</params>
+		</function>
+		<function name="glWindowPos2dvARB" return="void">
+			<params>
+				<param type="const GLdouble*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos2fvARB" return="void">
+			<params>
+				<param type="const GLfloat*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos2ivARB" return="void">
+			<params>
+				<param type="const GLint*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos2svARB" return="void">
+			<params>
+				<param type="const GLshort*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos3dARB" return="void">
+			<params>
+				<param type="GLdouble" name="x"/>
+				<param type="GLdouble" name="y"/>
+				<param type="GLdouble" name="z"/>
+			</params>
+		</function>
+		<function name="glWindowPos3fARB" return="void">
+			<params>
+				<param type="GLfloat" name="x"/>
+				<param type="GLfloat" name="y"/>
+				<param type="GLfloat" name="z"/>
+			</params>
+		</function>
+		<function name="glWindowPos3iARB" return="void">
+			<params>
+				<param type="GLint" name="x"/>
+				<param type="GLint" name="y"/>
+				<param type="GLint" name="z"/>
+			</params>
+		</function>
+		<function name="glWindowPos3sARB" return="void">
+			<params>
+				<param type="GLshort" name="x"/>
+				<param type="GLshort" name="y"/>
+				<param type="GLshort" name="z"/>
+			</params>
+		</function>
+		<function name="glWindowPos3dvARB" return="void">
+			<params>
+				<param type="const GLdouble*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos3fvARB" return="void">
+			<params>
+				<param type="const GLfloat*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos3ivARB" return="void">
+			<params>
+				<param type="const GLint*" name="p"/>
+			</params>
+		</function>
+		<function name="glWindowPos3svARB" return="void">
+			<params>
+				<param type="const GLshort*" name="p"/>
+			</params>
+		</function>
+	</functions>
+</gl_extension>
