@@ -23,7 +23,7 @@ for e in dpy:
 		dpy.FreeCursor(csr)
 		
 		shape += 1
-		if shape == cursor.Shapes.last:
+		if shape == cursor.Font.last:
 			shape = 0
 			
 		csr = dpy.CreateFontCursor(shape)

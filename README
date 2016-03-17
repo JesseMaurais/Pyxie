@@ -1,0 +1,11 @@
+An interface to common UNIX grpahics interfaces for Python using the ctypes
+module. It supports the entire Xlib interface for the X Window System, adding
+features that makes X11 more "Pythonic", as well as supporting OpenGL by
+scanning XML descriptions of the API and loading the symbols form the GL
+library dynamically.
+
+This is an old project, developed around 2009, and does not see many updates
+since X is being phased out of many of the major Linux distributions. Further,
+there seems to be a bug with newer Python interpreters that results in a
+segmentation fault in some of the test programs. 
+

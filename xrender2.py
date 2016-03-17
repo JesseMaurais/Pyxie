@@ -30,7 +30,7 @@ def CreateBrush(r, g, b, a):
 	pix = wnd.CreatePixmap(1, 1, depth)
 	pic = pix.CreatePicture(fmt, mask, attr)
 
-	render.PictOp.Over.RenderFillRectangle(pic, &col, 0, 0, 1, 1)
+	render.PictOp.Over.RenderFillRectangle(pic, col, 0, 0, 1, 1)
 	dpy.FreePixmap(pix)
 
 	return pic
